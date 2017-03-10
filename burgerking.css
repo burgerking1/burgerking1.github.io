@@ -19,17 +19,17 @@ nav {
   margin: 0;
 }
 
-gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-gallery-item {
+.gallery-item {
   margin: 2px;
 }
 
-gallery-item .thumbnail {
+.gallery-item .thumbnail {
 
 }
 
