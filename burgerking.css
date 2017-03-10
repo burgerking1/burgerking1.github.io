@@ -9,3 +9,18 @@ nav {
   background-image: url('http://i.imgur.com/yovydiL.jpg');
   margin: 0;
 }
+
+gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+gallery-item {
+  margin: 2px;
+}
+
+gallery-item .thumbnail {
+
+}
+
