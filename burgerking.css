@@ -6,4 +6,8 @@ h1 {
 }
 nav {
   color: green;
+  background-image: url('http://i.imgur.com/wbiF1Bj.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
 }
