@@ -11,10 +11,10 @@ h1 {
   font-size: 50px;
   font-weight: bold;
   border: 1px solid black;
-  color: Green;
+  color: #00ff1d;
 }
 nav {
-  color: pink;
+  color: #00ff1d;
   margin: 0;
 }
 
