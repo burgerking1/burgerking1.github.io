@@ -11,11 +11,10 @@ h1 {
   font-size: 50px;
   font-weight: bold;
   border: 1px solid black;
-  color: pink;
+  color: Green;
 }
 nav {
   color: pink;
-  background-image: url('http://i.imgur.com/yovydiL.jpg');
   margin: 0;
 }
 
