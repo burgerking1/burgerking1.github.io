@@ -66,14 +66,7 @@
   
         <img  src="http://i.imgur.com/15rmTwk.jpg" width="75%" height="75%">
   
-  
-  
-	<ul>
-<li class=”artist”>Artist: &nbsp; </li>
-<li class=”track”>Track: &nbsp; </li>
-</ul>  
-
-<script>
+  <script>
 $.getJSON('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=burger_king1&api_key=56cdaa8ce4f5c914112503c0a545dba5&format=json', function(data) {
 
 var artist = $(".artist"),
@@ -86,6 +79,13 @@ track.append(trackVal);
 
 });
 </script>
+  
+	<ul>
+<li class=”artist”>Artist: &nbsp; </li>
+<li class=”track”>Track: &nbsp; </li>
+</ul>  
+
+
     </body>
   </nav>
   </html>
