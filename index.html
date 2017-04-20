@@ -66,7 +66,16 @@
   
         <img  src="http://i.imgur.com/15rmTwk.jpg" width="75%" height="75%">
   
-     
+     function get_spotify() {
+	$.ajax({
+		type: 'POST',
+		url: './last.fm.php',
+		data: { request: 'true' },
+		success: function(reply) {
+			$('.now-playing').html("<p>" + reply + "</p>");
+		}
+	});
+}
   
     </body>
   </nav>
