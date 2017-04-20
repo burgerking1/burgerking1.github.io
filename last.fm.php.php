@@ -1,7 +1,7 @@
 <?php
 // Account & API Account Information
-$user = "your last.fm username here"; // <---- Your username goes here
-$key = "your api key here"; //<-- Your API key goes here
+$user = "burger_king1"; // <---- Your username goes here
+$key = "56cdaa8ce4f5c914112503c0a545dba5"; //<-- Your API key goes here
 // The URL of the request to API Service
 $url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=$user&api_key=$key&format=json";
 // Enable Shortening
